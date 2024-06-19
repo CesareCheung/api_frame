@@ -1,0 +1,57 @@
+-   name: 1、获取UUID
+#    base_url: https://788360p9o5.yicp.fun
+    base_url: ${get_base_url(base_fenmi_url)}
+    request:
+        method: get
+        url: /fenmi/code
+        params:
+            Accept: application/json, text/plain, */*
+            Accept-Encoding: gzip, deflate, br, zstd
+            Accept-Language: zh-CN,zh;q=0.9
+            Connection: keep-alive
+    extract:
+        uuid: '"uuid":"(.*?)"'
+    validate:
+    -   equals: {code: 200}
+    -   equals: {msg: "操作成功"}
+
+-   name: 2、登录财务系统
+#    base_url: https://788360p9o5.yicp.fun
+    base_url: ${get_base_url(base_fenmi_url)}
+    request:
+        method: post
+        url: /fenmi/auth/finance/login
+        json: {"username":"admin","password":"admin123","code":"0","uuid":"{{uuid}}"}
+    extract:
+        access_token: '"access_token":"(.*?)"'
+    validate:
+    -   equals: {code: 200}
+    -   equals: {msg: "操作成功"}
+
+-   name: 3、获取当前信息
+    base_url: ${get_base_url(base_fenmi_url)}
+    request:
+        method: get
+        url: /fenmi/finance/user/getInfo
+        headers:
+            Authorization: '{{access_token}}'
+    validate:
+        - equals: { code: 200 }
+        - equals: { msg: "操作成功" }
+
+
+-   name: 4、获取服务收入细项列表数据
+    base_url: ${get_base_url(base_fenmi_url)}
+    request:
+        method: get
+        url: /fenmi/finance/itemDetail/list?
+        headers:
+            Authorization: '{{access_token}}'
+        params:
+            pageNum: 1
+            pageSize: 10
+#        headers:
+#            Authorization: '{{access_token}}'
+    validate:
+        - equals: { code: 200 }
+        - equals: { msg: "查询成功" }

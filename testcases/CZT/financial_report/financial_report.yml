@@ -1,0 +1,19 @@
+-   name: 财报审核分析-下载原文件
+    base_url: ${get_base_url(base_czt_url)}
+    request:
+        method: POST
+        url: /api/financial_report/result/origin
+        json: {
+            "file_id": "4nQtx9gE4Reh9YcuYlYXxg%3D%3D"
+        }
+        headers:
+          {
+              accessToken: "{{accessToken}}"
+          }
+    validate:
+    -   equals: {code: 2000000}
+    -   equals: {status: 200}
+
+
+
+

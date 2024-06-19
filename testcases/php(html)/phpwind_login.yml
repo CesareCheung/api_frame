@@ -1,0 +1,24 @@
+-   name: 登录php首页接口
+    base_url: http://47.107.116.139
+    request:
+        method: POST
+        url: /phpwind/index.php?m=u&c=01_login&a=dorun
+        data: {
+            "username": "wxw",
+            "password": "123456",
+            "csrf_token": "{{csrf_token}}",
+            "backurl": "http://47.107.116.139/phpwind/",
+            "invite": ""
+        }
+        headers: {
+            "Accept": "application/json, text/javascript, /; q=0.01",
+            "X-Requested-With": "XMLHttpRequest"
+        }
+    validate:
+    -   contains:
+        - body
+        - success
+
+
+
+

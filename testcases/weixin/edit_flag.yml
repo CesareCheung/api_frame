@@ -1,0 +1,14 @@
+-   name: 编辑标签
+#    base_url: https://api.weixin.qq.com
+    base_url: ${get_base_url(base_weixin_url)}
+    request:
+        method: POST
+        url: /cgi-bin/tags/update?access_token={{access_token}}
+        json: {"tag": {"id": 100, "name": "王兴文${get_random_number(100000,999999)}" }}
+    validate:
+    -   equals: {errcode: 0}
+    -   equals: {errmsg: ok}
+
+
+
+

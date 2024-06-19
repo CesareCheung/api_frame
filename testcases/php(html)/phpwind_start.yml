@@ -1,0 +1,15 @@
+-   name: 访问phpwind论坛网页接口
+    base_url: http://47.107.116.139
+    request:
+        method: GET
+        url: /phpwind
+    extract:
+        csrf_token: 'name="csrf_token" value="(.*?)"'
+    validate:
+    -   contains:
+        - Body
+        - csrf_token
+
+
+
+

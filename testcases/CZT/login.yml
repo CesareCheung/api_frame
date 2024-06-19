@@ -1,0 +1,26 @@
+-   name: 财债通登录
+#    base_url: https://info-node1.superzgen.com
+    base_url: ${get_base_url(base_czt_url)}
+    request:
+        method: POST
+        url: /api/dgauth/internal/user/01_login
+        json: {
+            "username": "FbJGfk1zwB06CKye1cHk9w==",
+            "password": "6aJLliC3gFH526LP9Tb/ZQ=="
+        }
+        headers:
+          {
+              "finger": "auto_test",
+              "secret": "64923f50a698486bb2b9644ff916eb6d"
+          }
+    extract:
+        accessToken: accessToken
+        refreshToken: refreshToken
+    validate:
+    -   equals: {status_code: 200}
+#    -   equals: {total: '1'}
+    -   equals: {message: 成功}
+
+
+
+

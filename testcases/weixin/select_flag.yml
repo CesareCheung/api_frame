@@ -1,0 +1,15 @@
+-   name: 获取标签列表
+#    base_url: https://api.weixin.qq.com
+    base_url: ${get_base_url(base_weixin_url)}
+    request:
+        method: GET
+        url: /cgi-bin/tags/get
+        params:
+            access_token: '{{access_token}}'
+    validate:
+    -   equals: {status_code: 200}
+    -   contains: tags
+
+
+
+

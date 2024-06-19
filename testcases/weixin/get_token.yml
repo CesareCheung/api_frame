@@ -1,0 +1,25 @@
+-   name: $csv{name}
+#    base_url: https://api.weixin.qq.com
+    base_url: ${get_base_url(base_weixin_url)}
+    parameters:
+        name-appid-secret-grant_type-assert_str: data/get_token.csv
+    request:
+        method: GET
+        url: /cgi-bin/token
+        params:
+            appid: $csv{appid}
+            secret: $csv{secret}
+            grant_type: $csv{grant_type}
+    # json表达式提取,正则表达式提取
+    extract:
+        access_token: '"access_token":"(.*?)"'
+#        access_token: access_token
+    validate:
+    -   equals: {status_code: 200}
+#    -   equals: {expires_in: 7200}
+    -   contains: $csv{assert_str}
+
+
+
+
+
