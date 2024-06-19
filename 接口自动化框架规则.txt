@@ -1,0 +1,57 @@
+接口自动化测试框架规则
+1.必须有的四个一级关键字：name，base_url，requests，validate
+2.request关键字必须包含两个二级关键字：method，url
+3.传参方式：在request一级关键字下，通过二级关键字参数传参。
+    如果是get请求，通过params传参。如：
+        params:
+            grant_type: client_credential
+            appid: wx9b755d429f6fb216
+            secret: b963db0b97c8487b0cb920a240bd78e3
+    如果是post请求：
+        传json格式，通过json关键字传参。如：
+            json: {"tag": {"id": 100, "name": "王兴文aaa" }}
+        传表单格式，通过data关键字传参。如：
+            data:{
+                "tag": {"id": 100, "name": "王兴文aaa" }
+            }
+        传文件格式，通过files关键字传参。如：
+            files:
+                media: "E:/资料/图片/Tanzl.jpg"
+4.如果需要做接口关联，那么必须使用一级关键字：extract
+提取：
+    如：json提取方式
+    extract:
+        access_token: access_token
+    如：正则表达式提取方式
+    extract:
+        access_token: '"access_token":"(.*?)"'
+取值：
+    如：
+    access_token={{access_token}}
+5.热加载，当yaml文件需要使用动态参数时，那么可以在debugtalk.py中写方法调用。
+    注意：传参时，需要什么类型的数据，需要做强转。int(mix),int(max)，如：
+    # 获取随机数
+    def get_random_number(self,mix,max):
+        return random.randint(int(mix),int(max))
+    热加载取值：
+    ${get_random_number(100000,999999)}
+6.此框架支持两种断言方式：分别是equals和contains断言：
+    如：
+    validate:
+    -   equals: {status_code: 200}
+    -   equals: {expires_in: 7200}
+    -   contains: access_token
+7.数据驱动使用csv和一级关键字parameters实现：如：
+yaml写法：
+    parameters:
+        name-appid-secret-grant_type-assert_str: data/get_token.csv
+csv写法：
+    name,appid,secret,grant_type,assert_str
+    获取access_token统一鉴权码,wx9b755d429f6fb216,b963db0b97c8487b0cb920a240bd78e3,client_credential,access_token
+    appid必填项检查,"",b963db0b97c8487b0cb920a240bd78e3,client_credential,errcode
+    secret必填项检查,wx9b755d429f6fb216,"",client_credential,errcode
+8.日志监控，异常处理，以及基础路径的设置。
+
+
+
+
