@@ -1,0 +1,5 @@
+*.log
+/api_frame/logs/
+/logs/
+/api_frame/reports/
+/reports/

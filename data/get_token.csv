@@ -1,0 +1,4 @@
+name,appid,secret,grant_type,assert_str
+获取access_token统一鉴权码,wx9b755d429f6fb216,b963db0b97c8487b0cb920a240bd78e3,client_credential,access_token
+appid必填项检查,"",b963db0b97c8487b0cb920a240bd78e3,client_credential,errcode
+secret必填项检查,wx9b755d429f6fb216,"",client_credential,errcode
