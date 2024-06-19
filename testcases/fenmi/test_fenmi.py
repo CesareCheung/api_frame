@@ -9,6 +9,7 @@ class Testrequests:
 
     # 获取access_token(get请求)
     @allure.story('获取uuid并登录获取token')
+    @allure.severity("normal")
     @pytest.mark.parametrize("caseinfo",read_file('/testcases/fenmi/login.yml'))
     def test_get_token(self,caseinfo):
         # url = "/cgi-bin/token"
@@ -28,19 +29,20 @@ class Testrequests:
         allure.dynamic.description(caseinfo['name'])
         Requestutil().analysis_yaml(caseinfo)
 
-    # # 获取标签列表(get请求)
-    # @allure.story('查询标签接口')
-    # @pytest.mark.parametrize('caseinfo',read_file('/testcases/weixin/select_flag.yml'))
-    # def test_select_flag(self,caseinfo):
-    #     # url = "/cgi-bin/tags/get"
-    #     # params = {
-    #     #     "access_token":"{{access_token}}",
-    #     # }
-    #     # Requestutil('base','base_weixin_url').send_request("get",url=url,params=params)
-    #
-    #     allure.dynamic.title(caseinfo['name'])
-    #     allure.dynamic.description(caseinfo['name'])
-    #     Requestutil().analysis_yaml(caseinfo)
+    # 获取标签列表(get请求)
+    @allure.story('查询标签接口')
+    @allure.severity("critical")
+    @pytest.mark.parametrize('caseinfo',read_file('/testcases/fenmi/query.yml'))
+    def test_select_flag(self,caseinfo):
+        # url = "/cgi-bin/tags/get"
+        # params = {
+        #     "access_token":"{{access_token}}",
+        # }
+        # Requestutil('base','base_weixin_url').send_request("get",url=url,params=params)
+
+        allure.dynamic.title(caseinfo['name'])
+        allure.dynamic.description(caseinfo['name'])
+        Requestutil().analysis_yaml(caseinfo)
     #
     # # 编辑标签(post-json传参raw-json)
     # @allure.story('编辑标签接口')
