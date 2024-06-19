@@ -1,0 +1,387 @@
+[2024-06-19 12:31:01,508] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:01,508] logger_util.py->my_log line:61 [INFO] 接口名称：1、获取UUID
+[2024-06-19 12:31:01,508] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:01,509] logger_util.py->my_log line:61 [INFO] 请求路径：https://788360p9o5.yicp.fun/fenmi/code
+[2024-06-19 12:31:01,509] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:01,509] logger_util.py->my_log line:61 [INFO] 请求参数：{'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'zh-CN,zh;q=0.9', 'Connection': 'keep-alive'}
+[2024-06-19 12:31:01,509] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:01,877] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"code":200,"msg":"操作成功","data":{"img":"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","uuid":"f3cdba9ed7f649efafa4a669edde556b","captchaEnabled":true},"success":true}
+[2024-06-19 12:31:01,882] logger_util.py->my_log line:61 [INFO] 响应json信息：{'code': 200, 'msg': '操作成功', 'data': {'img': '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', 'uuid': 'f3cdba9ed7f649efafa4a669edde556b', 'captchaEnabled': True}, 'success': True}
+[2024-06-19 12:31:01,884] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'code': 200}}, {'equals': {'msg': '操作成功'}}]
+[2024-06-19 12:31:01,884] logger_util.py->my_log line:61 [INFO] 实际结果：{'code': 200, 'msg': '操作成功', 'data': {'img': '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', 'uuid': 'f3cdba9ed7f649efafa4a669edde556b', 'captchaEnabled': True}, 'success': True}
+[2024-06-19 12:31:01,886] logger_util.py->my_log line:61 [INFO] 接口请求成功
+[2024-06-19 12:31:01,886] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] 接口名称：2、登录财务系统
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] 请求方式：post
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] 请求路径：https://788360p9o5.yicp.fun/fenmi/auth/finance/login
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] 请求参数：{'username': 'admin', 'password': 'admin123', 'code': '0', 'uuid': 'f3cdba9ed7f649efafa4a669edde556b'}
+[2024-06-19 12:31:01,896] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:02,423] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"code":200,"msg":"操作成功","data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA","expires_in":720},"success":true}
+[2024-06-19 12:31:02,423] logger_util.py->my_log line:61 [INFO] 响应json信息：{'code': 200, 'msg': '操作成功', 'data': {'access_token': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA', 'expires_in': 720}, 'success': True}
+[2024-06-19 12:31:02,424] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'code': 200}}, {'equals': {'msg': '操作成功'}}]
+[2024-06-19 12:31:02,424] logger_util.py->my_log line:61 [INFO] 实际结果：{'code': 200, 'msg': '操作成功', 'data': {'access_token': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA', 'expires_in': 720}, 'success': True}
+[2024-06-19 12:31:02,424] logger_util.py->my_log line:61 [INFO] 接口请求成功
+[2024-06-19 12:31:02,424] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:02,434] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:02,434] logger_util.py->my_log line:61 [INFO] 接口名称：3、获取当前信息
+[2024-06-19 12:31:02,434] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:02,435] logger_util.py->my_log line:61 [INFO] 请求路径：https://788360p9o5.yicp.fun/fenmi/finance/user/getInfo
+[2024-06-19 12:31:02,435] logger_util.py->my_log line:61 [INFO] 请求头：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA'}
+[2024-06-19 12:31:02,435] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:02,595] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"code":200,"msg":"操作成功","data":{"user":{"createBy":"admin","createTime":"2022-06-11 15:31:33","updateBy":null,"updateTime":null,"userId":1,"deptId":103,"userName":"admin","nickName":"admin用户","email":"1281063820@qq.com","phonenumber":"18873856582","sex":"0","avatar":"http://192.168.1.153:9206/statics/2024/01/25/blob_20240125143924A001.png","password":"$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2","status":"0","delFlag":"0","loginIp":"127.0.0.1","loginDate":"2022-06-11T15:31:33.000+08:00","dept":{"createBy":null,"createTime":null,"updateBy":null,"updateTime":null,"deptId":103,"parentId":101,"ancestors":"0,100,101","deptName":"研发部门","orderNum":1,"leader":"若依","phone":null,"email":null,"status":"0","delFlag":null,"parentName":null,"children":[]},"roles":[{"createBy":null,"createTime":null,"updateBy":null,"updateTime":null,"roleId":1,"roleName":"超级管理员","roleKey":"admin","roleSort":"1","dataScope":"1","menuCheckStrictly":false,"deptCheckStrictly":false,"status":"0","delFlag":null,"flag":false,"menuIds":null,"deptIds":null,"permissions":null,"remark":null,"admin":true}],"roleIds":null,"postIds":null,"roleId":null,"remark":"管理员","admin":true},"permissions":["*:*:*"],"roles":["admin"]},"success":true}
+[2024-06-19 12:31:02,595] logger_util.py->my_log line:61 [INFO] 响应json信息：{'code': 200, 'msg': '操作成功', 'data': {'user': {'createBy': 'admin', 'createTime': '2022-06-11 15:31:33', 'updateBy': None, 'updateTime': None, 'userId': 1, 'deptId': 103, 'userName': 'admin', 'nickName': 'admin用户', 'email': '1281063820@qq.com', 'phonenumber': '18873856582', 'sex': '0', 'avatar': 'http://192.168.1.153:9206/statics/2024/01/25/blob_20240125143924A001.png', 'password': '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', 'status': '0', 'delFlag': '0', 'loginIp': '127.0.0.1', 'loginDate': '2022-06-11T15:31:33.000+08:00', 'dept': {'createBy': None, 'createTime': None, 'updateBy': None, 'updateTime': None, 'deptId': 103, 'parentId': 101, 'ancestors': '0,100,101', 'deptName': '研发部门', 'orderNum': 1, 'leader': '若依', 'phone': None, 'email': None, 'status': '0', 'delFlag': None, 'parentName': None, 'children': []}, 'roles': [{'createBy': None, 'createTime': None, 'updateBy': None, 'updateTime': None, 'roleId': 1, 'roleName': '超级管理员', 'roleKey': 'admin', 'roleSort': '1', 'dataScope': '1', 'menuCheckStrictly': False, 'deptCheckStrictly': False, 'status': '0', 'delFlag': None, 'flag': False, 'menuIds': None, 'deptIds': None, 'permissions': None, 'remark': None, 'admin': True}], 'roleIds': None, 'postIds': None, 'roleId': None, 'remark': '管理员', 'admin': True}, 'permissions': ['*:*:*'], 'roles': ['admin']}, 'success': True}
+[2024-06-19 12:31:02,595] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'code': 200}}, {'equals': {'msg': '操作成功'}}]
+[2024-06-19 12:31:02,596] logger_util.py->my_log line:61 [INFO] 实际结果：{'code': 200, 'msg': '操作成功', 'data': {'user': {'createBy': 'admin', 'createTime': '2022-06-11 15:31:33', 'updateBy': None, 'updateTime': None, 'userId': 1, 'deptId': 103, 'userName': 'admin', 'nickName': 'admin用户', 'email': '1281063820@qq.com', 'phonenumber': '18873856582', 'sex': '0', 'avatar': 'http://192.168.1.153:9206/statics/2024/01/25/blob_20240125143924A001.png', 'password': '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', 'status': '0', 'delFlag': '0', 'loginIp': '127.0.0.1', 'loginDate': '2022-06-11T15:31:33.000+08:00', 'dept': {'createBy': None, 'createTime': None, 'updateBy': None, 'updateTime': None, 'deptId': 103, 'parentId': 101, 'ancestors': '0,100,101', 'deptName': '研发部门', 'orderNum': 1, 'leader': '若依', 'phone': None, 'email': None, 'status': '0', 'delFlag': None, 'parentName': None, 'children': []}, 'roles': [{'createBy': None, 'createTime': None, 'updateBy': None, 'updateTime': None, 'roleId': 1, 'roleName': '超级管理员', 'roleKey': 'admin', 'roleSort': '1', 'dataScope': '1', 'menuCheckStrictly': False, 'deptCheckStrictly': False, 'status': '0', 'delFlag': None, 'flag': False, 'menuIds': None, 'deptIds': None, 'permissions': None, 'remark': None, 'admin': True}], 'roleIds': None, 'postIds': None, 'roleId': None, 'remark': '管理员', 'admin': True}, 'permissions': ['*:*:*'], 'roles': ['admin']}, 'success': True}
+[2024-06-19 12:31:02,596] logger_util.py->my_log line:61 [INFO] 接口请求成功
+[2024-06-19 12:31:02,597] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] 接口名称：4、获取服务收入细项列表数据
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] 请求路径：https://788360p9o5.yicp.fun/fenmi/finance/itemDetail/list?
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] 请求头：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA'}
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] 请求参数：{'pageNum': 1, 'pageSize': 10}
+[2024-06-19 12:31:02,603] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:02,760] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"total":44,"rows":[{"createBy":null,"createTime":"2024-05-25 14:38:12","updateBy":null,"updateTime":"2024-05-25 14:38:12","id":"9","bizSource":1,"itemDetailType":1001,"operatorType":10010003,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"20.00","sourceId":"9","statisticsId":0,"itemDate":202405,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-04-25 14:38:12","updateBy":null,"updateTime":"2024-04-25 14:38:12","id":"9","bizSource":1,"itemDetailType":1006,"operatorType":10060002,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"20.00","sourceId":"22","statisticsId":0,"itemDate":202404,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-05-25 14:38:12","updateBy":null,"updateTime":"2024-05-25 14:38:12","id":"8","bizSource":1,"itemDetailType":1001,"operatorType":10010001,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"400.00","sourceId":"8","statisticsId":0,"itemDate":202405,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-04-25 14:38:12","updateBy":null,"updateTime":"2024-04-25 14:38:12","id":"8","bizSource":1,"itemDetailType":1007,"operatorType":null,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"213.33","sourceId":"23","statisticsId":0,"itemDate":202404,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-05-25 14:38:12","updateBy":null,"updateTime":"2024-05-25 14:38:12","id":"7","bizSource":1,"itemDetailType":1001,"operatorType":10010002,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"40.00","sourceId":"7","statisticsId":0,"itemDate":202405,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-04-25 14:38:12","updateBy":null,"updateTime":"2024-04-25 14:38:12","id":"7","bizSource":2,"itemDetailType":2001,"operatorType":20010002,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"400.00","sourceId":"3","statisticsId":0,"itemDate":202404,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-05-25 14:38:12","updateBy":null,"updateTime":"2024-05-25 14:38:12","id":"6","bizSource":1,"itemDetailType":1005,"operatorType":10050002,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"注销社保","etcUserId":"2","productId":"2","amount":"100.00","sourceId":"6","statisticsId":0,"itemDate":202405,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-04-25 14:38:12","updateBy":null,"updateTime":"2024-04-25 14:38:12","id":"6","bizSource":2,"itemDetailType":2001,"operatorType":20010001,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"测试的啦222","etcUserId":"2","productId":"2","amount":"200.00","sourceId":"4","statisticsId":0,"itemDate":202404,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-05-25 14:38:12","updateBy":null,"updateTime":"2024-05-25 14:38:12","id":"5","bizSource":1,"itemDetailType":1005,"operatorType":10050001,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"注销社保","etcUserId":"2","productId":"2","amount":"400.00","sourceId":"5","statisticsId":0,"itemDate":202405,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null},{"createBy":null,"createTime":"2024-04-25 14:38:12","updateBy":null,"updateTime":"2024-04-25 14:38:12","id":"5","bizSource":1,"itemDetailType":1005,"operatorType":10050001,"operatorCode":"MTK","carNum":"粤BAT1234","holderName":"张维序","idCode":"111502123456781150","productName":"注销社保","etcUserId":"2","productId":"2","amount":"400.00","sourceId":"5","statisticsId":0,"itemDate":202404,"beginTime":null,"endTime":null,"bizSourceStr":null,"itemDetailTypeStr":null,"operatorTypeStr":null}],"code":200,"msg":"查询成功"}
+[2024-06-19 12:31:02,764] logger_util.py->my_log line:61 [INFO] 响应json信息：{'total': 44, 'rows': [{'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '9', 'bizSource': 1, 'itemDetailType': 1001, 'operatorType': 10010003, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '20.00', 'sourceId': '9', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '9', 'bizSource': 1, 'itemDetailType': 1006, 'operatorType': 10060002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '20.00', 'sourceId': '22', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '8', 'bizSource': 1, 'itemDetailType': 1001, 'operatorType': 10010001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '8', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '8', 'bizSource': 1, 'itemDetailType': 1007, 'operatorType': None, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '213.33', 'sourceId': '23', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '7', 'bizSource': 1, 'itemDetailType': 1001, 'operatorType': 10010002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '40.00', 'sourceId': '7', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '7', 'bizSource': 2, 'itemDetailType': 2001, 'operatorType': 20010002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '3', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '6', 'bizSource': 1, 'itemDetailType': 1005, 'operatorType': 10050002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '注销社保', 'etcUserId': '2', 'productId': '2', 'amount': '100.00', 'sourceId': '6', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '6', 'bizSource': 2, 'itemDetailType': 2001, 'operatorType': 20010001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '200.00', 'sourceId': '4', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '5', 'bizSource': 1, 'itemDetailType': 1005, 'operatorType': 10050001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '注销社保', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '5', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '5', 'bizSource': 1, 'itemDetailType': 1005, 'operatorType': 10050001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '注销社保', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '5', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}], 'code': 200, 'msg': '查询成功'}
+[2024-06-19 12:31:02,766] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'code': 200}}, {'equals': {'msg': '查询成功'}}]
+[2024-06-19 12:31:02,766] logger_util.py->my_log line:61 [INFO] 实际结果：{'total': 44, 'rows': [{'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '9', 'bizSource': 1, 'itemDetailType': 1001, 'operatorType': 10010003, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '20.00', 'sourceId': '9', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '9', 'bizSource': 1, 'itemDetailType': 1006, 'operatorType': 10060002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '20.00', 'sourceId': '22', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '8', 'bizSource': 1, 'itemDetailType': 1001, 'operatorType': 10010001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '8', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '8', 'bizSource': 1, 'itemDetailType': 1007, 'operatorType': None, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '213.33', 'sourceId': '23', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '7', 'bizSource': 1, 'itemDetailType': 1001, 'operatorType': 10010002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '40.00', 'sourceId': '7', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '7', 'bizSource': 2, 'itemDetailType': 2001, 'operatorType': 20010002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '3', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '6', 'bizSource': 1, 'itemDetailType': 1005, 'operatorType': 10050002, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '注销社保', 'etcUserId': '2', 'productId': '2', 'amount': '100.00', 'sourceId': '6', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '6', 'bizSource': 2, 'itemDetailType': 2001, 'operatorType': 20010001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '测试的啦222', 'etcUserId': '2', 'productId': '2', 'amount': '200.00', 'sourceId': '4', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-05-25 14:38:12', 'updateBy': None, 'updateTime': '2024-05-25 14:38:12', 'id': '5', 'bizSource': 1, 'itemDetailType': 1005, 'operatorType': 10050001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '注销社保', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '5', 'statisticsId': 0, 'itemDate': 202405, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}, {'createBy': None, 'createTime': '2024-04-25 14:38:12', 'updateBy': None, 'updateTime': '2024-04-25 14:38:12', 'id': '5', 'bizSource': 1, 'itemDetailType': 1005, 'operatorType': 10050001, 'operatorCode': 'MTK', 'carNum': '粤BAT1234', 'holderName': '张维序', 'idCode': '111502123456781150', 'productName': '注销社保', 'etcUserId': '2', 'productId': '2', 'amount': '400.00', 'sourceId': '5', 'statisticsId': 0, 'itemDate': 202404, 'beginTime': None, 'endTime': None, 'bizSourceStr': None, 'itemDetailTypeStr': None, 'operatorTypeStr': None}], 'code': 200, 'msg': '查询成功'}
+[2024-06-19 12:31:02,770] logger_util.py->my_log line:61 [INFO] 接口请求成功
+[2024-06-19 12:31:02,770] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:02,776] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:02,777] logger_util.py->my_log line:61 [INFO] 接口名称：获取access_token统一鉴权码
+[2024-06-19 12:31:02,777] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:02,777] logger_util.py->my_log line:61 [INFO] 请求路径：https://api.weixin.qq.com/cgi-bin/token
+[2024-06-19 12:31:02,777] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:02,777] logger_util.py->my_log line:61 [INFO] 请求参数：{'appid': 'wx9b755d429f6fb216', 'secret': 'b963db0b97c8487b0cb920a240bd78e3', 'grant_type': 'client_credential'}
+[2024-06-19 12:31:02,777] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:03,122] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"errcode":50002,"errmsg":"user limited rid: 66725f01-71152ae3-20d0d32a"}
+[2024-06-19 12:31:03,123] logger_util.py->my_log line:61 [INFO] 响应json信息：{'errcode': 50002, 'errmsg': 'user limited rid: 66725f01-71152ae3-20d0d32a'}
+[2024-06-19 12:31:03,123] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'contains': 'access_token'}]
+[2024-06-19 12:31:03,123] logger_util.py->my_log line:61 [INFO] 实际结果：{'errcode': 50002, 'errmsg': 'user limited rid: 66725f01-71152ae3-20d0d32a'}
+[2024-06-19 12:31:03,123] logger_util.py->error_log line:65 [ERROR] 断言失败:返回结果中不包含字符串access_token
+[2024-06-19 12:31:03,123] logger_util.py->my_log line:61 [INFO] 接口请求失败
+[2024-06-19 12:31:03,123] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:03,124] logger_util.py->error_log line:65 [ERROR] 断言异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 203, in validate_result
+    error_log("断言失败:返回结果中不包含字符串"+value+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:返回结果中不包含字符串access_token
+
+[2024-06-19 12:31:03,125] logger_util.py->error_log line:65 [ERROR] 分析YAML文件异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 203, in validate_result
+    error_log("断言失败:返回结果中不包含字符串"+value+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:返回结果中不包含字符串access_token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 71, in analysis_yaml
+    self.validate_result(yq_result, sj_result, status_code)
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 212, in validate_result
+    error_log("断言异常：异常信息：%s" % str(traceback.format_exc()))
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 203, in validate_result
+    error_log("断言失败:返回结果中不包含字符串"+value+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:返回结果中不包含字符串access_token
+
+
+[2024-06-19 12:31:03,201] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:03,201] logger_util.py->my_log line:61 [INFO] 接口名称：appid必填项检查
+[2024-06-19 12:31:03,202] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:03,202] logger_util.py->my_log line:61 [INFO] 请求路径：https://api.weixin.qq.com/cgi-bin/token
+[2024-06-19 12:31:03,202] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:03,202] logger_util.py->my_log line:61 [INFO] 请求参数：{'appid': '', 'secret': 'b963db0b97c8487b0cb920a240bd78e3', 'grant_type': 'client_credential'}
+[2024-06-19 12:31:03,202] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:03,223] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"errcode":41002,"errmsg":"appid missing rid: 66725f01-0213882c-76b288ba"}
+[2024-06-19 12:31:03,223] logger_util.py->my_log line:61 [INFO] 响应json信息：{'errcode': 41002, 'errmsg': 'appid missing rid: 66725f01-0213882c-76b288ba'}
+[2024-06-19 12:31:03,223] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'contains': 'errcode'}]
+[2024-06-19 12:31:03,223] logger_util.py->my_log line:61 [INFO] 实际结果：{'errcode': 41002, 'errmsg': 'appid missing rid: 66725f01-0213882c-76b288ba'}
+[2024-06-19 12:31:03,223] logger_util.py->my_log line:61 [INFO] 接口请求成功
+[2024-06-19 12:31:03,223] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:03,228] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:03,229] logger_util.py->my_log line:61 [INFO] 接口名称：secret必填项检查
+[2024-06-19 12:31:03,229] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:03,229] logger_util.py->my_log line:61 [INFO] 请求路径：https://api.weixin.qq.com/cgi-bin/token
+[2024-06-19 12:31:03,229] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:03,229] logger_util.py->my_log line:61 [INFO] 请求参数：{'appid': 'wx9b755d429f6fb216', 'secret': '', 'grant_type': 'client_credential'}
+[2024-06-19 12:31:03,229] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:03,354] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"errcode":41004,"errmsg":"appsecret missing rid: 66725f01-5a5fb666-36bb261e"}
+[2024-06-19 12:31:03,354] logger_util.py->my_log line:61 [INFO] 响应json信息：{'errcode': 41004, 'errmsg': 'appsecret missing rid: 66725f01-5a5fb666-36bb261e'}
+[2024-06-19 12:31:03,354] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'contains': 'errcode'}]
+[2024-06-19 12:31:03,355] logger_util.py->my_log line:61 [INFO] 实际结果：{'errcode': 41004, 'errmsg': 'appsecret missing rid: 66725f01-5a5fb666-36bb261e'}
+[2024-06-19 12:31:03,355] logger_util.py->my_log line:61 [INFO] 接口请求成功
+[2024-06-19 12:31:03,355] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:03,361] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:03,361] logger_util.py->my_log line:61 [INFO] 接口名称：获取标签列表
+[2024-06-19 12:31:03,361] logger_util.py->my_log line:61 [INFO] 请求方式：get
+[2024-06-19 12:31:03,361] logger_util.py->my_log line:61 [INFO] 请求路径：https://api.weixin.qq.com/cgi-bin/tags/get
+[2024-06-19 12:31:03,361] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:03,362] logger_util.py->my_log line:61 [INFO] 请求参数：{'access_token': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA'}
+[2024-06-19 12:31:03,362] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:03,413] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest, could get access_token by getStableAccessToken, more details at https://mmbizurl.cn/s/JtxxFh33r rid: 66725f02-278d2047-46fb54f5"}
+[2024-06-19 12:31:03,413] logger_util.py->my_log line:61 [INFO] 响应json信息：{'errcode': 40001, 'errmsg': 'invalid credential, access_token is invalid or not latest, could get access_token by getStableAccessToken, more details at https://mmbizurl.cn/s/JtxxFh33r rid: 66725f02-278d2047-46fb54f5'}
+[2024-06-19 12:31:03,413] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'contains': 'tags'}]
+[2024-06-19 12:31:03,413] logger_util.py->my_log line:61 [INFO] 实际结果：{'errcode': 40001, 'errmsg': 'invalid credential, access_token is invalid or not latest, could get access_token by getStableAccessToken, more details at https://mmbizurl.cn/s/JtxxFh33r rid: 66725f02-278d2047-46fb54f5'}
+[2024-06-19 12:31:03,413] logger_util.py->error_log line:65 [ERROR] 断言失败:返回结果中不包含字符串tags
+[2024-06-19 12:31:03,413] logger_util.py->my_log line:61 [INFO] 接口请求失败
+[2024-06-19 12:31:03,414] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:03,414] logger_util.py->error_log line:65 [ERROR] 断言异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 203, in validate_result
+    error_log("断言失败:返回结果中不包含字符串"+value+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:返回结果中不包含字符串tags
+
+[2024-06-19 12:31:03,414] logger_util.py->error_log line:65 [ERROR] 分析YAML文件异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 203, in validate_result
+    error_log("断言失败:返回结果中不包含字符串"+value+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:返回结果中不包含字符串tags
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 71, in analysis_yaml
+    self.validate_result(yq_result, sj_result, status_code)
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 212, in validate_result
+    error_log("断言异常：异常信息：%s" % str(traceback.format_exc()))
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 203, in validate_result
+    error_log("断言失败:返回结果中不包含字符串"+value+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:返回结果中不包含字符串tags
+
+
+[2024-06-19 12:31:03,447] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:03,447] logger_util.py->my_log line:61 [INFO] 接口名称：编辑标签
+[2024-06-19 12:31:03,448] logger_util.py->my_log line:61 [INFO] 请求方式：post
+[2024-06-19 12:31:03,448] logger_util.py->my_log line:61 [INFO] 请求路径：https://api.weixin.qq.com/cgi-bin/tags/update?access_token=eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2tleSI6Ijg1MjNhMzE2ZGJjMTQ2MTk5MzE0YmY1MmUzMjkxODU3IiwidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJhZG1pbiJ9.W3D0Qkvq6NglEgesGCEyvWRdwYMREWP3tP5ar5F5r6ic7RcbCbs3Hmaijam2clEhxG53k4TBAYNYxEpNOLhkHA
+[2024-06-19 12:31:03,448] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:03,448] logger_util.py->my_log line:61 [INFO] 请求参数：{'tag': {'id': 100, 'name': '王兴文240114'}}
+[2024-06-19 12:31:03,448] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:03,513] logger_util.py->my_log line:61 [INFO] 响应文本信息：{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest, could get access_token by getStableAccessToken, more details at https://mmbizurl.cn/s/JtxxFh33r rid: 66725f02-1035d7e0-07c6602e"}
+[2024-06-19 12:31:03,513] logger_util.py->my_log line:61 [INFO] 响应json信息：{'errcode': 40001, 'errmsg': 'invalid credential, access_token is invalid or not latest, could get access_token by getStableAccessToken, more details at https://mmbizurl.cn/s/JtxxFh33r rid: 66725f02-1035d7e0-07c6602e'}
+[2024-06-19 12:31:03,514] logger_util.py->my_log line:61 [INFO] 预期结果：[{'equals': {'errcode': 0}}, {'equals': {'errmsg': 'ok'}}]
+[2024-06-19 12:31:03,514] logger_util.py->my_log line:61 [INFO] 实际结果：{'errcode': 40001, 'errmsg': 'invalid credential, access_token is invalid or not latest, could get access_token by getStableAccessToken, more details at https://mmbizurl.cn/s/JtxxFh33r rid: 66725f02-1035d7e0-07c6602e'}
+[2024-06-19 12:31:03,514] logger_util.py->error_log line:65 [ERROR] 断言失败:errcode不等于0
+[2024-06-19 12:31:03,515] logger_util.py->my_log line:61 [INFO] 接口请求失败
+[2024-06-19 12:31:03,515] logger_util.py->my_log line:61 [INFO] -----------------接口请求结束-----------------
+
+[2024-06-19 12:31:03,515] logger_util.py->error_log line:65 [ERROR] 断言异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 196, in validate_result
+    error_log("断言失败:"+assert_key+"不等于"+str(assert_value)+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:errcode不等于0
+
+[2024-06-19 12:31:03,516] logger_util.py->error_log line:65 [ERROR] 分析YAML文件异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 196, in validate_result
+    error_log("断言失败:"+assert_key+"不等于"+str(assert_value)+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:errcode不等于0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 71, in analysis_yaml
+    self.validate_result(yq_result, sj_result, status_code)
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 212, in validate_result
+    error_log("断言异常：异常信息：%s" % str(traceback.format_exc()))
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 196, in validate_result
+    error_log("断言失败:"+assert_key+"不等于"+str(assert_value)+"")
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 断言失败:errcode不等于0
+
+
+[2024-06-19 12:31:03,594] logger_util.py->error_log line:65 [ERROR] 分析YAML文件异常：异常信息：Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 45, in analysis_yaml
+    files[key] = open(value,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'E:/资料/图片/Tanzl.jpg'
+
+[2024-06-19 12:31:03,646] logger_util.py->my_log line:61 [INFO] -----------------接口请求开始-----------------
+[2024-06-19 12:31:03,646] logger_util.py->my_log line:61 [INFO] 接口名称：Z世代-公司简介接口
+[2024-06-19 12:31:03,646] logger_util.py->my_log line:61 [INFO] 请求方式：post
+[2024-06-19 12:31:03,647] logger_util.py->my_log line:61 [INFO] 请求路径：https://info-node1.superzgen.com/info/pub/profile
+[2024-06-19 12:31:03,647] logger_util.py->my_log line:61 [INFO] 请求头：{}
+[2024-06-19 12:31:03,647] logger_util.py->my_log line:61 [INFO] 请求参数：{'stockCode': 600000}
+[2024-06-19 12:31:03,647] logger_util.py->my_log line:61 [INFO] 文件上传：None
+[2024-06-19 12:31:05,929] logger_util.py->error_log line:65 [ERROR] 发送请求异常：异常信息：Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\python\python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\python\python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\python\python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='info-node1.superzgen.com', port=443): Max retries exceeded with url: /info/pub/profile (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 158, in send_request
+    res = Requestutil.session.request(method=self.last_method,url=self.url,headers=self.last_headers,**kwargs)
+  File "D:\python\python37\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\python\python37\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\python\python37\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='info-node1.superzgen.com', port=443): Max retries exceeded with url: /info/pub/profile (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+[2024-06-19 12:31:05,930] logger_util.py->error_log line:65 [ERROR] 分析YAML文件异常：异常信息：Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\python\python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\python\python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\python\python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='info-node1.superzgen.com', port=443): Max retries exceeded with url: /info/pub/profile (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 158, in send_request
+    res = Requestutil.session.request(method=self.last_method,url=self.url,headers=self.last_headers,**kwargs)
+  File "D:\python\python37\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\python\python37\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\python\python37\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='info-node1.superzgen.com', port=443): Max retries exceeded with url: /info/pub/profile (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 48, in analysis_yaml
+    res = self.send_request(name=name,method=method,url=url,headers=headers,files=files,**caseinfo['request'])
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 164, in send_request
+    error_log("发送请求异常：异常信息：%s"%str(traceback.format_exc()))
+  File "C:\Users\1\Desktop\api_frame\common\logger_util.py", line 66, in error_log
+    raise Exception(log_massage)
+Exception: 发送请求异常：异常信息：Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\python\python37\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\python\python37\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\python\python37\lib\site-packages\urllib3\connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\python37\lib\site-packages\requests\adapters.py", line 499, in send
+    timeout=timeout,
+  File "D:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\python\python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='info-node1.superzgen.com', port=443): Max retries exceeded with url: /info/pub/profile (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\1\Desktop\api_frame\common\requests_util.py", line 158, in send_request
+    res = Requestutil.session.request(method=self.last_method,url=self.url,headers=self.last_headers,**kwargs)
+  File "D:\python\python37\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\python\python37\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\python\python37\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='info-node1.superzgen.com', port=443): Max retries exceeded with url: /info/pub/profile (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x039695F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+
