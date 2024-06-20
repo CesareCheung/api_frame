@@ -231,7 +231,7 @@ if __name__ == '__main__':
     # del dict_data['name']
     # print(dict_data)
 
-    json_data = {"tag": {"id": 100, "name": "王兴文${get_random_number(100000,999999)}" }}
+    json_data = {"tag": {"id": 100, "name": "张维序${get_random_number(100000,999999)}" }}
     result = Requestutil('base', 'base_weixin_url').replace_load(json_data)
     print(result)
 
