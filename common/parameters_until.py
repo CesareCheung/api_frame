@@ -8,6 +8,7 @@ from common.logger_util import error_log
 
 # 读取csv文件
 def read_csv_file(csv_file):
+    '''c参数说明'''
     csv_list = []
     path = BASE_DIR+"/"+csv_file
     with open(path,encoding='utf-8') as f:
