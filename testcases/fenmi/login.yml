@@ -1,5 +1,4 @@
 -   name: 1、获取UUID
-#    base_url: XXXX
     base_url: ${get_base_url(base_fenmi_url)}
     request:
         method: get
@@ -16,12 +15,11 @@
     -   equals: {msg: "操作成功"}
 
 -   name: 2、登录财务系统
-#    base_url: XXXX
     base_url: ${get_base_url(base_fenmi_url)}
     request:
         method: post
         url: /fenmi/auth/finance/login
-        json: {"username":"admin","password":"XXXX","code":"0","uuid":"{{uuid}}"}
+        json: {"username":"admin","password":"admin123","code":"0","uuid":"{{uuid}}"}
     extract:
         access_token: '"access_token":"(.*?)"'
     validate:
@@ -35,6 +33,7 @@
         url: /fenmi/finance/user/getInfo
         headers:
             Authorization: '{{access_token}}'
+    sql: "select id FROM fn_item_detail_202405 where id=1;"
     validate:
         - equals: { code: 200 }
         - equals: { msg: "操作成功" }
