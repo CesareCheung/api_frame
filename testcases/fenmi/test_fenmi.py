@@ -3,12 +3,12 @@ import pytest
 from common.requests_util import Requestutil
 from common.parameters_until import read_file
 
-@allure.epic('分米互联')
-@allure.feature('登录并查询服务收入细项列表数据')
+@allure.epic('分米互联-财务系统')
+@allure.feature('服务收入细项模块')
 class Testrequests:
 
     # 获取access_token(get请求)
-    @allure.story('获取uuid并登录获取token')
+    @allure.story('登录并查询收入细项列表数据')
     @allure.severity("normal")
     @pytest.mark.parametrize("caseinfo",read_file('/testcases/fenmi/login.yml'))
     def test_get_token(self,caseinfo):
