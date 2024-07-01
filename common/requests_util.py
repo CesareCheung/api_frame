@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 import json
 import re
+import time
 import traceback
 import jsonpath
 import requests
@@ -8,7 +9,7 @@ import requests
 from common.logger_util import my_log, error_log
 from common.yaml_util import *
 from debugtalk import DebugTalk
-
+from common.connect_db import OperationMysql
 
 class Requestutil:
 
@@ -34,6 +35,19 @@ class Requestutil:
                     del caseinfo['request']['method']
                     url = caseinfo['request']['url']
                     del caseinfo['request']['url']
+
+                    # 增加sql查询及更新
+                    if 'sql' in caseinfo_keys:
+                        sql=caseinfo['sql']
+                        if "SELECT" or "select" in sql:
+                            select_sql=OperationMysql().search_one(sql)
+                            write_file('/config/extract.yml', select_sql)
+                            print(select_sql)
+                        elif "UPDATE"  or "update" in sql:
+                            update_sql=OperationMysql().updata_one(sql)
+                            write_file('/config/extract.yml', update_sql)
+                            print(update_sql)
+
                     headers = None
                     if jsonpath.jsonpath(caseinfo,'$..headers'):
                         headers = caseinfo['request']['headers']
@@ -50,6 +64,24 @@ class Requestutil:
                     status_code = res.status_code
                     my_log("响应文本信息：%s"%return_text)
                     my_log("响应json信息：%s"%res.json())
+
+                    # if "select_sql" in caseinfo_keys:
+                    #     for key,value in dict(caseinfo['select_sql']).items():
+                    #         select_sql=OperationMysql.search_one()
+                    #
+                    #
+                    #     #     selct_sql=eval(OperationMysql.search_one(value))
+                    #     write_file('/config/sql.yml',select_sql)
+                    #     time.sleep(5)
+                    #     print(select_sql)
+                    #
+                    # if "select_sql" in caseinfo_keys:
+                    #     for key,value in dict(caseinfo['select_sql']).items():
+                    #         selct_sql = OperationMysql.updata_one(value)
+                    #         write_file('/config/extract.yml', selct_sql)
+                    #         print(selct_sql)
+
+
                     # 提取接口关联的变量,既要支持正则表达式,又要支持json提取
                     if 'extract' in caseinfo_keys:
                         for key,value in dict(caseinfo['extract']).items():
