@@ -2,7 +2,7 @@ base:
   base_info_url: https://info-node1.superzgen.com
   base_php_url: http://47.107.116.139
   base_weixin_url: https://api.weixin.qq.com
-  base_fenmi_url: https://XXXX
+  base_fenmi_url: https://788360p9o5.yicp.fun
 #  base_czt_url: http://czt-preview.imers.datagrand.cn
   base_czt_url: hhttps://czt.datagrand.cn
 log:
