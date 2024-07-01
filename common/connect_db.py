@@ -9,11 +9,11 @@ class OperationMysql:
 
     def __init__(self):
         self.conn = pymysql.connect(
-            host='192.168.1.60',
+            host='XXXX',
             port=3306,
             user='root',
-            passwd='fm123456',
-            db='fenmi_finance',
+            passwd='XXXX',
+            db='XXXX',
             charset='utf8',
             cursorclass=pymysql.cursors.DictCursor
         )
