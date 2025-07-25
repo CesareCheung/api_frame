@@ -31,4 +31,4 @@ def set_report_title(json_file_path, key, new_value):
 
 # 调用set_report_title方法，设置测试报告报告title
 json_file_path = r'./reports/allure/widgets/summary.json'
-set_report_title(json_file_path, 'reportName', '分米互联财务接口自动化测试报告')
+set_report_title(json_file_path, 'reportName', 'XXXX财务接口自动化测试报告')
